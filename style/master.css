@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: url('../img/background.png');
+	background-size: 150%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+.container {
+	width: 98%;
+	display: block;
+	margin: auto;
+}
+header {
+	width: 100%;
+	background-color: #999;
+	background-color: rgba(255, 255, 255, .2);
+	padding-top: .5em; padding-bottom: .5em;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+}
+.nav-btn {
+	text-decoration: none;
+	border-radius: 10px;
+	padding: .5em;
+	background-color: #aaa;
+	background-color: rgba(255, 255, 255, .3);
+	color: black;
+	-webkit-transition: padding .5s .2s, background-color .5s .2s, color .5s .2s;
+	-moz-transition: padding .5s .2s, background-color .5s .2s, color .5s .2s;
+	-o-transition: padding .5s .2s, background-color .5s .2s, color .5s .2s;
+}
+.nav-btn:hover {
+	padding: .8em;
+	background-color: #ccc;
+	background-color: rgba(255, 255, 255, .5);
+	color: #0000dd;
+	-webkit-transition: padding .5s .2s, background-color .5s .2s, color .5s .2s;
+	-moz-transition: padding .5s .2s, background-color .5s .2s, color .5s .2s;
+	-o-transition: padding .5s .2s, background-color .5s .2s, color .5s .2s;
+}
